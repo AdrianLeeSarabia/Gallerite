@@ -1,6 +1,7 @@
 <h1>Latest faved posts</h1>
 
 <div class="" *ngFor="let item of favs">
-  <span>{{ item.name }} </span>
-  <span>{{ item.price | currency }}</span>
+  <img [src]="item.imageUrl" class="pic" />
+  <span>{{ item.name }} </span> <br />
+  <span>{{ item.description }}</span>
 </div>

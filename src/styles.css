@@ -12,10 +12,13 @@ body {
   margin: 0;
 }
 .pic {
-  border: 1px solid #ddd;
+  border: 3px solid rgb(15, 8, 71);
   border-radius: 4px;
   padding: 5px;
   width: 500px;
+}
+.icon-white {
+  color: rgb(255, 255, 255);
 }
 .container {
   display: flex;
@@ -34,6 +37,7 @@ h1 {
 
 h2 {
   font-size: 20px;
+  text-align: center;
 }
 
 h1,

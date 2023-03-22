@@ -3,29 +3,30 @@ export interface Product {
   name: string;
   price: number;
   description: string;
+  imageUrl: string;
 }
 
 export const products = [
   {
     id: 1,
-    name: 'Picture 1',
+    name: 'School of Computing',
     price: 799,
-    description: 'A large phone with one of the best screens',
+    description: 'Photo taken by Creative Pixel',
     imageUrl: 'assets/Soc.jpg',
   },
   {
     id: 2,
-    name: 'Picture 2',
+    name: 'Converse',
     price: 699,
-    description: 'A great phone with one of the best cameras',
+    description: 'Photo taken by F-7 Photography',
     imageUrl: 'assets/F-7.jpg',
   },
   {
     id: 3,
-    name: 'Picture 3',
+    name: 'University Days',
     price: 299,
-    description: '',
-    imageUrl: 'assets/USC.jpg',
+    description: 'Photo taken by Holy Angel University Council',
+    imageUrl: 'assets/usc.jpg',
   },
 ];
 
