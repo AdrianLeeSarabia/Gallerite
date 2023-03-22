@@ -11,7 +11,7 @@ export const products = [
     name: 'Picture 1',
     price: 799,
     description: 'A large phone with one of the best screens',
-    image: 'https://picsum.photos/id/28/4928/3264',
+    imageUrl: 'assets/Soc.jpg',
   },
   {
     id: 2,
