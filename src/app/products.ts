@@ -18,12 +18,14 @@ export const products = [
     name: 'Picture 2',
     price: 699,
     description: 'A great phone with one of the best cameras',
+    imageUrl: 'assets/F-7.jpg',
   },
   {
     id: 3,
     name: 'Picture 3',
     price: 299,
     description: '',
+    imageUrl: 'assets/USC.jpg',
   },
 ];
 
