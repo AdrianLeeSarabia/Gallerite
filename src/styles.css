@@ -11,7 +11,12 @@
 body {
   margin: 0;
 }
-
+.pic {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+}
 .container {
   display: flex;
   flex-direction: row;
